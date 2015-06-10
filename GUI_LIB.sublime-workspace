@@ -1,0 +1,673 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"num",
+				"num_tables"
+			],
+			[
+				"new",
+				"new_num_3"
+			],
+			[
+				"new_",
+				"new_num_0"
+			],
+			[
+				"targ",
+				"target_bpp"
+			],
+			[
+				"tar",
+				"target_height"
+			],
+			[
+				"mouse",
+				"mouse_flags"
+			],
+			[
+				"char",
+				"char_height"
+			],
+			[
+				"target",
+				"target_height"
+			],
+			[
+				"Draw",
+				"DrawChar"
+			],
+			[
+				"Bit",
+				"BitmapImage"
+			],
+			[
+				"src_",
+				"src_width"
+			],
+			[
+				"m_t",
+				"m_targetHeight"
+			],
+			[
+				"Bl",
+				"Blend"
+			],
+			[
+				"m_w",
+				"m_window"
+			],
+			[
+				"window",
+				"window_height"
+			],
+			[
+				"wind",
+				"window_height"
+			],
+			[
+				"mou",
+				"mouseX"
+			],
+			[
+				"mo",
+				"mouseY"
+			],
+			[
+				"m_m",
+				"m_mouseY"
+			],
+			[
+				"g",
+				"g"
+			],
+			[
+				"r",
+				"r"
+			],
+			[
+				"pi",
+				"pixels32"
+			],
+			[
+				"m_p",
+				"m_pCHeight"
+			],
+			[
+				"m_canvasW",
+				"m_canvasWidth"
+			],
+			[
+				"nu",
+				"NULL"
+			],
+			[
+				"m_B",
+				"m_bmpInfo"
+			],
+			[
+				"NULL",
+				"nullptr"
+			],
+			[
+				"class",
+				"class_name"
+			],
+			[
+				"m_C",
+				"m_ClickBoxes"
+			],
+			[
+				"Blend",
+				"BlendMode"
+			],
+			[
+				"str",
+				"str"
+			],
+			[
+				"itr",
+				"itr"
+			],
+			[
+				"pB",
+				"pButton"
+			],
+			[
+				"pC",
+				"pCurrentPage"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"HINST",
+				"hInstance"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Font.cpp",
+			"settings":
+			{
+				"buffer_size": 2283,
+				"line_ending": "Windows",
+				"name": "Font.cpp"
+			}
+		},
+		{
+			"file": "Main.cpp",
+			"settings":
+			{
+				"buffer_size": 2052,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Font.h",
+			"settings":
+			{
+				"buffer_size": 125,
+				"line_ending": "Windows",
+				"name": "Font.h"
+			}
+		}
+	],
+	"build_system": "Packages/User/CPP.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/User/CPP.sublime-build",
+					""
+				],
+				[
+					"Packages/User/CPP.sublime-build",
+					"Build x86"
+				],
+				[
+					"Packages/User/CPP.sublime-build",
+					"Build x64"
+				],
+				[
+					"Packages/User/CPP.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/User/CPP.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/CPP.sublime-build",
+					"Debug"
+				]
+			],
+			[
+				"Packages/User/CPP.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/CPP.sublime-build",
+					""
+				],
+				[
+					"Packages/User/CPP.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/User/CPP.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/CPP.sublime-build",
+					"Debug"
+				]
+			],
+			[
+				"Packages/User/CPP.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "Run",
+	"command_palette":
+	{
+		"height": 151.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"c",
+				"Build: Clean"
+			],
+			[
+				"clea",
+				"Build: Clean"
+			],
+			[
+				"cl",
+				"Build: Clean"
+			],
+			[
+				"op",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"ope",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"cle",
+				"Build: Clean"
+			],
+			[
+				"open",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"build",
+				"Build: Debug"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 600.0
+	},
+	"console":
+	{
+		"height": 186.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/CPP/GUI_LIB"
+	],
+	"file_history":
+	[
+		"/C/CPP/GUI_LIB/TextBox.cpp",
+		"/C/CPP/GUI_LIB/GUIBox.cpp",
+		"/C/CPP/GUI_LIB/Main.cpp",
+		"/C/CPP/GUI_LIB/TextBox.h",
+		"/C/CPP/GUI_LIB/BaseWindow.h",
+		"/C/CPP/GUI_LIB/Menu.h",
+		"/C/CPP/GUI_LIB/Menu.cpp",
+		"/C/CPP/GUI_LIB/GUI.cpp",
+		"/C/CPP/GUI_LIB/GUI.h",
+		"/C/CPP/GUI_LIB/Button.h",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Source/Window.cpp",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Source/page.cpp",
+		"/C/CPP/GUI_LIB/GUI_LIB.sublime-project",
+		"/C/CPP/GUI_LIB/Button.cpp",
+		"/C/CPP/GUI_LIB/GUIBox.h",
+		"/C/CPP/GUI_LIB/BitmapImage.cpp",
+		"/C/CPP/GUI_LIB/BitmapImage.h",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Source/Button.cpp",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Headers/BitmapImage.h",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Source/BitmapImage.cpp",
+		"/P/CPP/GUI_LIB/GUIBox.h",
+		"/P/CPP/GUI_LIB/GUIBox.cpp",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Headers/Stdafx.h",
+		"/P/CPP/GUI_LIB/GUI.h",
+		"/P/CPP/GUI_LIB/GUI.cpp",
+		"/P/CPP/GUI_LIB/SoftwareWindow.h",
+		"/P/CPP/GUI_LIB/Main.cpp",
+		"/P/CPP/GUI_LIB/SoftwareWindow.cpp",
+		"/P/CPP/GUI_LIB/BaseWindow.h",
+		"/P/CPP/GUI_LIB/Color4f.h",
+		"/P/CPP/GUI_LIB/Color4f.cpp",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Source/Color4f.cpp",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Headers/Color4f.h",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Source/Stdafx.cpp",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Source/ClickBox.cpp",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Source/Main.cpp",
+		"/P/CPP/GUI_LIB/build.bat",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/DCPU/IDE/AppWindow.h",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/DCPU/IDE/BaseWindow.h",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/HandmadeHero/HandmadeHero.cpp",
+		"/P/CPP/Main.cpp",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Headers/Menu.h",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Headers/Button.h",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Headers/ClickBox.h",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Source/Menu.cpp",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Headers/Window.h",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Build/Log.txt",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Resources/Consolas.bmp",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Headers/Page.h",
+		"/c/users/caleb/documents/visual studio 2013/projects/texteditor/source/page.cpp",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Source/Page.cpp",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/build.bat",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Window.h",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Main.cpp",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Stdafx.h",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/BitmapImage.h",
+		"/C/Users/Caleb/AppData/Roaming/Sublime Text 3/Packages/Handmade/Handmade_CPP.tmLanguage",
+		"/C/Users/Caleb/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Page.cpp",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Color4f.h",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Page.h",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/BitmapImage.cpp",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Color4f.cpp",
+		"/C/Users/Caleb/AppData/Roaming/Sublime Text 3/Packages/User/CPP.sublime-build",
+		"/C/Users/Caleb/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.system-ca-bundle",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/Debug/Log.txt",
+		"/C/Users/Caleb/AppData/Roaming/Sublime Text 3/Packages/User/sublime.bat",
+		"/C/Users/Caleb/AppData/Roaming/Sublime Text 3/Packages/Handmade/Handmade.sublime-build",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/TextEditor/CPP.sublime-build",
+		"/C/Program Files (x86)/Arduino/libraries/WiFi/keywords.txt",
+		"/C/kicad-winbuilder-3.4/README.TXT",
+		"/C/Users/Caleb/AppData/Roaming/Sublime Text 3/Packages/Handmade/Handmade.tmTheme",
+		"/C/Program Files (x86)/Arduino/libraries/Ethernet/keywords.txt",
+		"/C/Users/Caleb/Documents/Arduino/libraries/RobotOpen/keywords.txt",
+		"/C/Users/Caleb/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/P/Handmade/src/handmade.cpp",
+		"/C/Program Files (x86)/Steam/steamapps/common/Kerbal Space Program/saves/Caleb/persistent.sfs",
+		"/C/Program Files (x86)/Steam/steamapps/common/Kerbal Space Program/settings.cfg",
+		"/P/Handmade/src/win32_handmade.cpp",
+		"/P/Foundations of Computer Graphics/src/build.bat",
+		"/P/Foundations of Computer Graphics/src/mytest3.cpp",
+		"/P/Foundations of Computer Graphics/src/include/GL/glut.h",
+		"/P/Foundations of Computer Graphics/src/include/GL/glew.h",
+		"/P/Foundations of Computer Graphics/src/shaders.cpp",
+		"/C/Users/Caleb/Documents/Visual Studio 2013/Projects/Win32Project1/Main.cpp",
+		"/C/Users/Caleb/AppData/Roaming/Sublime Text 3/Packages/Handmade/Handmade_Build.tmLanguage",
+		"/P/Handmade/misc/sublime.bat",
+		"/P/Handmade/misc/shell.bat",
+		"/P/Handmade/src/build.bat",
+		"/C/Users/Caleb/AppData/Roaming/Sublime Text 3/Packages/C++/C++.sublime-build"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Button",
+			"ToColor32",
+			"m_color",
+			"Button",
+			"uint32",
+			"m_Height",
+			"uint32",
+			"Logf(",
+			"uint8",
+			"uint32",
+			"Get",
+			"mouse",
+			"Get",
+			"B",
+			"G",
+			"A",
+			"R",
+			"int32",
+			"uint32",
+			"real32",
+			"uint32",
+			"real32",
+			"m_canvasHeight",
+			"m_canvasWidth",
+			"\\n",
+			"std::wcout",
+			"OnClick",
+			"Menu",
+			"Button",
+			"WHITE",
+			"Color",
+			"1.0f, ",
+			"RED",
+			"COLOR",
+			"Color",
+			"Log",
+			"tab"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"TextBox",
+			"Menu",
+			"unsigned int",
+			"std::cout << ",
+			"unsigned char",
+			"unsigned int",
+			"m_b",
+			"m_g",
+			"m_a",
+			"m_r",
+			"int",
+			"unsigned int",
+			"float",
+			"unsigned int",
+			"float",
+			"m_pCHeight",
+			"m_pCWidth",
+			"ClickBox",
+			"Menu"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Font.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2283,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2039,
+								2039
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Font.cpp",
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1626.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2052,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								931,
+								931
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 966.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Font.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65,
+								65
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Font.h",
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 216.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/CPP.sublime-build",
+	"project": "GUI_LIB.sublime-project",
+	"replace":
+	{
+		"height": 94.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 750.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 570.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 223.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"shell_cmd": "buildx86.bat",
+
+	"file_regex": "\\b(.*.cpp)\\((\\d*)\\) : \\b(.*)",
+	"working_dir": "${project_path}",
+	"selector": "source.c, source.c++",
+
+	"variants":
+	[
+		{
+			"name": "Build x86",
+			"shell_cmd": "buildx86.bat"
+		},
+
+		{
+			"name": "Build x64",
+			"shell_cmd": "buildx64.bat"
+		},
+
+		{
+			"name": "Clean",
+			"shell_cmd": "rd /S /Q .\\Build"
+		},
+
+		{
+			"name": "Run",
+			"shell_cmd": ".\\Build\\Main.exe"
+		},
+
+		{
+			"name": "Debug",
+			"shell_cmd": "C:\\OllyDbg\\OLLYDBG.EXE ${project_path}\\Build\\Main.exe"
+		}
+	]
+}
